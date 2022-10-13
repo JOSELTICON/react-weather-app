@@ -3,7 +3,7 @@ import React from "react";
 const Loader = () => {
   return (
     <div>
-      <img src="src\assets\loading.svg"></img>
+      <img src="icons/loading.svg"></img>
     </div>
   );
 };

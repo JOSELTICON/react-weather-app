@@ -8,7 +8,7 @@ const Cards = ({weekday, temperature, icon}) => {
         </h5>
         <img
           className="object-cover w-12 rounded-t-lg h-12"
-          src={`/icons/${icon}.png`}
+          src={`icons/${icon}.png`}
           alt=""
         />
         <h5 className="text-2xl font-normal">{temperature}°</h5>
