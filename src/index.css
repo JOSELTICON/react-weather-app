@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  body {
+    min-height: 100vh;
+    background-image: linear-gradient(
+      to left bottom,
+      #b6cdbd,
+      #d1d7c5,
+      #ebe3ce
+    );
+    line-height: 1.5;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
