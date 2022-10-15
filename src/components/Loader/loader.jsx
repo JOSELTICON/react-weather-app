@@ -2,7 +2,7 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <div>
+    <div className="">
       <img src="icons/loading.svg"></img>
     </div>
   );

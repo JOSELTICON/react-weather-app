@@ -37,12 +37,12 @@ const CurrenDay = ({
             <h3 className="text-3xl font-light">{location}</h3>
           </div>
         </div>
-        <div className="display flex flex-row justify-around">
-          <h1 className="text-[200px] font-sans text-[#b6cdbd]">
+        <div className="display flex flex-row justify-around items-center">
+          <h1 className="md:text-[200px] text-[90px] font-sans text-[#b6cdbd]">
             {temperature}°
           </h1>
           <img
-            className="object-cover object-center w-[230px] rounded-t-lg"
+            className="object-cover object-center md:w-[230px] w-[150px] rounded-t-lg"
             src={`${Icons(weatherDescription)}.svg`}
             alt="no image"
           />
